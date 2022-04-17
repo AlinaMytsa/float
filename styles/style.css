@@ -1,0 +1,48 @@
+.container{
+  width: 100%;
+  max-width: 1200px;
+}
+.wrapper:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.wrapper{
+  margin: 0 auto;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.headings{
+  text-align: center;
+  padding-bottom: 70px;
+}
+.main_heading{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+img{
+  width: 65px;
+  float: left;
+  padding: 0 30px 80px 30px;
+}
+.item1{
+  width: 49%;
+  float: left;
+  box-sizing: border-box;
+}
+.item2{
+  width: 49%;
+  float: left;
+  box-sizing: border-box;
+}
+h3{
+  font-weight: bold;
+}
+p{
+  line-height: 120%;
+}
+
